@@ -1,0 +1,18 @@
+.shimmerContainer{
+    max-width: 1200px;
+    /* background-color: #2f2727; */
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.shimmerContainer .ExploreShimmer{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #231f1f;
+}

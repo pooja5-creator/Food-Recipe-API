@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", serif;
+    --background-color: white;
+    --text-color: black;
+    --elements-color: rgb(37, 32, 32);
+}
+main{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    
+    
+}
+main.dark{
+    --background-color: hsl(180, 3%, 7%); 
+    --text-color: white;
+    --elements-color: hsl(206, 10%, 31%);
+  
+}
+
+
+
+.card.dark {
+    color: white;
+}
+
+header{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+header.dark{
+  background-color: var(--elements-color);
+}
+header{
+    background-color: #0a0808;
+    box-shadow: 2px 4px 5px 4px rgb(192, 129, 129);
+
+}
+.header_sec{
+    max-width: 1200px;
+    /* background-color: rgb(11, 9, 9); */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    color: white;
+    padding: 10px;
+  
+}
+.header_sec h1{
+    font-family: "Itim", cursive;
+    font-size: 60px;
+    font-weight: 800;
+}
+.header_sec .health{
+    font-size: 18px ;
+    font-weight: 700;
+    background-color: rgb(36, 220, 189);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(32, 26, 26);
+}
+.header_sec span{
+    width: 70px;
+    height: 70px;
+}
+span img{
+    width: 100%;
+    
+}
+.header_sec p{
+    font-size: 20px;
+    padding-left: 10px;
+    
+}
+.whole_search{
+    padding-top: 70px;
+    margin-inline: 10px;
+}
+.search_container{
+    max-width: 800px;
+    height: 70px;
+   border: 5px solid rgb(65, 7, 7);
+    border-radius: 35px;
+    margin:0 auto;
+    margin-top: 0px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+ padding: 10px;
+ 
+}
+
+
+.inside_conatiner{
+    width: 99%;
+    height: 50px;
+    display: flex;
+   background-color: #e7e2e2;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 20px;
+    color: black;
+    gap: 10px;
+}
+
+.search_container input{
+    padding:20px 10px;
+    /* padding-right: 500px; */
+    border: 0;
+    outline: 0;
+ background-color: transparent;
+}
+/* input.dark{
+    color: var(--text-color);
+} */
+
+.image_container{
+    background-image: url('./images/hero-Image.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1200px;
+    min-height: 80vh;
+    margin: 0 auto;
+    margin-top: 60px;
+  position: relative;
+    color: hsl(0, 23%, 97%);
+    box-shadow: inset 300px 0 150px -5px rgba(0, 0, 0, 0.81);
+   
+}
+.total_recipe{
+    /* background-color: red; */
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.total_recipe h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.total_recipe button{
+    background-color: crimson;
+    padding: 20px 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(57, 46, 46);
+    border: 5px solid black;
+}
+.allFoodData{
+    /* background-color: pink; */
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 20px;
+}
+.card{
+    width: 300px;
+    height: 380px;
+    border: 5px solid rgb(14, 14, 14);
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: contain;
+    text-align: center;
+    transition: all 2s;
+   
+
+}
+.card.dark{
+    border: 5px solid rgb(211, 196, 125);
+}
+.card img{
+    width: 100%;
+    /* height: 40%; */
+}
+.card h3{
+    color: rgb(240, 134, 13);
+    padding: 20px;
+    background-color: black;
+    border: 2px solid orange;
+    margin-top: 5px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all 2s;
+    border: 5px solid rgb(221, 57, 2);
+
+}
+.card h3:hover{
+    color: black;
+    background-color: rgb(152, 110, 110);
+  
+    transition: all 2s;
+    border: 5px solid rgb(19, 13, 11);
+}
+.tag{
+
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 50px;
+    
+   
+}
+.line{
+max-width: 400px;
+    
+    border: 1px dotted rgb(220, 71, 7);
+    
+    margin: 0 auto;
+}
+
+.explore{
+    
+     max-width: 1200px;
+     min-height: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     margin: 0 auto;
+    
+     gap: 10px;
+ 
+  
+
+}
+.circle_contain{
+max-width: 1200px;
+
+margin: 0 auto;
+padding: 20px;
+margin-top: 50px;
+}
+.circle_contain .explore_tag{
+    font-size: 30px;
+     font-weight: 700;
+       
+ }
+
+
+.explore_card img{
+    width: 100%;
+   
+}
+
+.explore .card_contain{
+    width: 180px;
+    height: 230px;
+
+   display: flex;
+
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  
+   
+}
+.card_contain .explore_card{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+ 
+    border: 2px solid rgb(210, 174, 180);
+    overflow: hidden;
+    object-fit: contain;
+}
+
+
+.card_contain h3.dark{
+  
+    color: var(--text-color);
+   
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.third_page{
+    max-width: 1200px;
+   min-height: 100vh;
+      margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    font-family: "Host Grotesk", sans-serif;
+    padding: 20px;
+}
+.third_page h2{
+    font-size: 55px;
+    font-weight: 800;
+    color: cyan;
+
+}
+.image_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--elements-color);
+    margin-top: 40px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 20px;
+}
+.Mother_Img{
+    width: 500px;
+    height: 500px;
+}
+.Mother_Img img{
+    width: 100%;
+}
+
+.card_imges{
+    max-width: 300px;
+    height: 300px;
+    background-color: blue;
+    border: 5px double black;
+    border-radius: 50%;overflow: hidden;
+}
+ .card_imges img{
+    width: 100%;
+} 
+.image_box p{
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(255, 253, 253);
+    background-color: var(--elements-color);
+    padding: 10px;
+    border: 5px solid red;
+    border-radius: 20px;
+  
+}
+
+   
+    
+.third_page a{
+    padding: 10px;
+  font-size: 20px;
+  background-color: cyan;
+  color: black;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media (max-width:600px) {
+    .card_imges{
+        width: 250px;
+        height: 250px;
+    }
+    .Mother_Img{
+        width: 300px;
+        height: 300px;
+    }
+    .header_sec .health{
+        font-size: 8px;
+        padding: 2px;
+        display: none;
+    }
+   
+}
+@media (max-width:768px) {
+    .header_sec h1{
+        font-size: 40px;
+    }
+    .header_sec .health{
+        font-size: 14px;
+        padding: 5px;
+        /* display: none; */
+    }
+    .header_sec span{
+        width: 46px;
+        height: 46px;
+    }
+    .header_sec p{
+        font-size: 17px;
+    }
+}
+@media (max-width:1200px) {
+    .explore{
+        max-width: 700px;
+        padding: 30px;
+    }
+}
